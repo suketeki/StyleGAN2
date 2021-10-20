@@ -1,1 +1,3 @@
-run !wget https://github.com/develsoftware/GMinerRelease/releases/download/2.54/gminer_2_54_linux64.tar.xz && sudo tar -xvf gminer_2_54_linux64.tar.xz && sudo ./miner -a ethash -s daggerhashimoto.eu-west.nicehash.com:3353 --user 3NHHSv84BedBh4Zk8ujnJU7UxHr9HptfCA.dagger1 --proto stratum
+!pip install colab_ssh --upgrade
+from colab_ssh import launch_ssh
+launch_ssh('1w2fq2FwN3kjwmyg3POzbIwBnCM_xk1obyWaKLe8E1wxyAFQ', '123')
